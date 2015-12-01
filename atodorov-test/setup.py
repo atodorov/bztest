@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 config = {
     'name' : 'atodorov-test',
-    'version' : '0.3',
+    'version' : '0.3.1',
     'packages' : find_packages(),
     'author' : 'Alexander Todorov',
     'author_email' : 'atodorov@nopam.otb.bg',
