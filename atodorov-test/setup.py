@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
 from setuptools import setup, find_packages
+from restricted_pkg import setup
 
 config = {
+    'private_repository': 'http://@upload.localhost',
     'name' : 'atodorov-test',
-    'version' : '0.3.4',
+    'version' : '0.4',
     'packages' : find_packages(),
     'author' : 'Alexander Todorov',
     'author_email' : 'atodorov@nopam.otb.bg',
