@@ -1,6 +1,7 @@
 env:
 - _ATODOROV_TEST=0.3.3
 - !!python/unicode '_ATODOROV_TEST=0.3.4'
+- !!python/unicode '_ATODOROV_TEST=0.4'
 install:
 - pip install atodorov-test==$_ATODOROV_TEST
 language: python
